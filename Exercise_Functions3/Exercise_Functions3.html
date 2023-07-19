@@ -16,10 +16,14 @@ El programa evalua si el ingrediente se repitio.-->
     <header></header>
     <h1>Recetas de Armando</h1>
     <main>
-      <input class="Entrada" />
+      <div class="Entrada">
+        <label for="inText" style="font-weight: bold;">Escribe los ingredientes aqui:</label>
+        <textarea name="hola" id="inText" cols="30" rows="10"></textarea>
+      </div>
+      
       <div class="Zonabotones">
-        <button id="agregar">Agregar Ingrediente</button>
-        <button id="vaciar">Vaciar Lista</button>
+        <input type="button" id="agregar" value="Agregar Ingrediente"></button>
+        <input type="button" id="vaciar" value="Vaciar Lista"></button>
       </div>
     </main>
     <footer></footer>
